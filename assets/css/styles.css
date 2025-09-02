@@ -29,3 +29,15 @@ body{
 #timer{font-variant-numeric: tabular-nums}
 .accordion-button{background:#0f1422;color:#e6e6e6}
 .accordion-item{background:#0f1422;border-color:#1f2942}
+.site-logo {
+  max-width: 100%;
+  width: 360px; /* ajuste rápido */
+  height: auto;
+  display: block;
+}
+
+/* responsivo: menor em telas pequenas */
+@media (max-width: 768px) {
+  .site-logo { width: 260px; }
+}
+
