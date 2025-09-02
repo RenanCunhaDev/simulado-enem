@@ -1,0 +1,68 @@
+[
+  {
+    "id": "L1",
+    "code": "ENEM-2023-LP-01",
+    "area": "linguagens",
+    "text": "O texto discute a relação entre consumo e meio ambiente. Qual alternativa expressa a ideia central?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Os lixões precisam de ampliação.",
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": "O desperdício degrada o ambiente.",
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": "Os mercados doam perecíveis.",
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": "A desnutrição compromete o raciocínio.",
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": "Faltam refrigeradores nas casas.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "L2",
+    "code": "ENEM-2023-LP-02",
+    "area": "linguagens",
+    "text": "Em uma campanha publicitária, qual recurso reforça a persuasão do leitor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referências bibliográficas extensas.",
+        "correct": false
+      },
+      {
+        "key": "B",
+        "text": "Apelos emotivos e slogans.",
+        "correct": true
+      },
+      {
+        "key": "C",
+        "text": "Notas de rodapé técnicas.",
+        "correct": false
+      },
+      {
+        "key": "D",
+        "text": "Descrição neutra dos fatos.",
+        "correct": false
+      },
+      {
+        "key": "E",
+        "text": "Ausência de imagens.",
+        "correct": false
+      }
+    ]
+  }
+]

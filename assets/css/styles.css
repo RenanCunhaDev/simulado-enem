@@ -1,0 +1,31 @@
+
+:root{
+  --bg: #0b0f17;
+  --glass: rgba(255,255,255,.06);
+  --border: rgba(255,255,255,.12);
+}
+*{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif}
+body{
+  background: radial-gradient(1200px 600px at 10% -10%, #1a2b57 0%, transparent 50%),
+              radial-gradient(900px 500px at 110% 10%, #2a1140 0%, transparent 45%),
+              var(--bg);
+  color: #e6e6e6;
+}
+.navbar{background: linear-gradient(90deg,#111,#151b2b);}
+.brand-glow{
+  display:inline-block;width:10px;height:10px;border-radius:50%;
+  background: conic-gradient(#00d4ff, #6a5acd, #00d4ff);
+  box-shadow: 0 0 20px #6a5acd;
+}
+.glass{
+  background: var(--glass);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+.card{border-radius: 1rem;}
+#question-container .card{background:#0f1422;border-color:#1f2942}
+.form-check-input:checked{background-color:#6a5acd;border-color:#6a5acd}
+.progress{height:12px}
+#timer{font-variant-numeric: tabular-nums}
+.accordion-button{background:#0f1422;color:#e6e6e6}
+.accordion-item{background:#0f1422;border-color:#1f2942}
