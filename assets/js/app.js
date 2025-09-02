@@ -120,7 +120,7 @@ function renderQuestion(){
     const checked = selected === opt.key ? "checked" : "";
     return `<div class="form-check mb-2">
       <input class="form-check-input" type="radio" name="q_${q.id}" id="q_${q.id}_${opt.key}" value="${opt.key}" ${checked}>
-      <label class="form-check-label" for="q_${q.id}_${opt.key}"><strong>${opt.key})</strong> ${opt.text}</label>
+      <label class="form-check-label text-white" for="q_${q.id}_${opt.key}"><strong>${opt.key})</strong> ${opt.text}</label>
     </div>`;
   }).join("");
 
@@ -130,7 +130,7 @@ function renderQuestion(){
         <div><span class="badge text-bg-secondary">${q.code || "Q" + (state.index+1)}</span></div>
         <div class="small text-muted">${AREAS[q.area]}</div>
       </div>
-      <p class="mb-3">${q.text}</p>
+      <p class="mb-3 text-white">${q.text}</p>
       ${q.image ? `<img class="img-fluid rounded border mb-3" src="${q.image}" alt="figura">` : ""}
       ${opts}
     </div>
